@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- 
+root :to => 'index#index'
   resources :posts do
   	 resources :comments
   	end
